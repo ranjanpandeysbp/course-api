@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -Xmx256m -jar target/*.jar --spring.profiles.active=heroku --server.port=$PORT
+web: java $JAVA_OPTS -Xmx256m -jar target/*.jar --spring.profiles.active=local --server.port=$PORT
